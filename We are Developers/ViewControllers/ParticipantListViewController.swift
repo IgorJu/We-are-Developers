@@ -9,12 +9,11 @@ import UIKit
 
 final class ParticipantListViewController: UITableViewController {
     
-    @IBOutlet var uiTableView: UITableView!
     var teamMates: [TeamMate]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setBackgroundColour()
+        setupGradientTable()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -37,32 +36,5 @@ final class ParticipantListViewController: UITableViewController {
         cell.contentConfiguration = content
         cell.backgroundConfiguration = .clear()
         return cell
-    }
-    
-    private func setBackgroundColour() {
-        let primaryColor = UIColor(
-            red: 7/255,
-            green: 150/255,
-            blue: 127/255,
-            alpha: 1
-        )
-        
-        let secondaryColor = UIColor(
-            red: 110/255,
-            green: 234/255,
-            blue: 15/255,
-            alpha: 1
-        )
-        
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = uiTableView.bounds
-        gradientLayer.colors = [primaryColor.cgColor,secondaryColor.cgColor]
-        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
-        gradientLayer.endPoint = CGPoint(x: 0, y: 1)
-
-        let backgroundView = UIView(frame: uiTableView.bounds)
-        backgroundView.layer.insertSublayer(gradientLayer, at: 0)
-
-        uiTableView.backgroundView = backgroundView
     }
 }

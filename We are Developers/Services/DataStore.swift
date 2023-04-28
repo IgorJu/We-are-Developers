@@ -25,11 +25,11 @@ final class DataStoreForList {
         ,
         TeamMate(
             name: "Igor",
-            surname: "XXXXX",
-            yearOfBirth: "XXXX",
-            age: "XX",
-            hobby: "XXXXXX",
-            pets: "XX, XX",
+            surname: "Rukaleev",
+            yearOfBirth: "1998",
+            age: "25",
+            hobby: "Yoga",
+            pets: "Cat, dog",
             photo: "igor"
         )
     ]

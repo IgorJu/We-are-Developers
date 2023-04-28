@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785F46EA29FBF8F400F416CD /* Extension + UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F46E929FBF8F400F416CD /* Extension + UITableViewController.swift */; };
 		787D01DC29FA963600F0E530 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D01DB29FA963600F0E530 /* ResultViewController.swift */; };
 		787D01DE29FA9AA500F0E530 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D01DD29FA9AA500F0E530 /* TestViewController.swift */; };
 		78A2952029FBDCA700810CA1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2951F29FBDCA700810CA1 /* Person.swift */; };
@@ -26,9 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		785F46E929FBF8F400F416CD /* Extension + UITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITableViewController.swift"; sourceTree = "<group>"; };
 		787D01DB29FA963600F0E530 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "We are Developers/ViewControllers/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
 		787D01DD29FA9AA500F0E530 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		78A2951D29FBDB5600810CA1 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		78A2951F29FBDCA700810CA1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		78A2952129FBEA9E00810CA1 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		78ADF6E829F9253300205D13 /* We are Developers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We are Developers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +151,7 @@
 			children = (
 				78C505FF29F93C690079ECD8 /* Extension + UIView.swift */,
 				78C5060229F93F8F0079ECD8 /* Extension + UIViewController.swift */,
+				785F46E929FBF8F400F416CD /* Extension + UITableViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +232,7 @@
 				78C505FE29F937B40079ECD8 /* Question.swift in Sources */,
 				78ADF70F29F92C7400205D13 /* LaunchTestViewController.swift in Sources */,
 				787D01DE29FA9AA500F0E530 /* TestViewController.swift in Sources */,
+				785F46EA29FBF8F400F416CD /* Extension + UITableViewController.swift in Sources */,
 				78C5060029F93C690079ECD8 /* Extension + UIView.swift in Sources */,
 				78ADF6EC29F9253300205D13 /* AppDelegate.swift in Sources */,
 				78C5060329F93F8F0079ECD8 /* Extension + UIViewController.swift in Sources */,

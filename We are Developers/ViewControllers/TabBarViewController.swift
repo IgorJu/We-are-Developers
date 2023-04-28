@@ -16,8 +16,8 @@ final class TabBarViewController: UITabBarController {
     }
     
     private func setupViewControllers() {
-        guard let participantVC = viewControllers?.first as? ParticipantListViewController else { return }
+        guard let navVC = viewControllers?.first as? UINavigationController else { return }
+        guard let participantVC = navVC.topViewController as? ParticipantListViewController else { return }
         participantVC.teamMates = teamMates
-        guard let testVC = viewControllers?.last as? TestViewController else { return }
     }
 }
