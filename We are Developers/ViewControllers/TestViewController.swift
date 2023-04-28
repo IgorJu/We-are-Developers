@@ -18,13 +18,12 @@ final class TestViewController: UIViewController {
     private var currentAnswer: [Answer] {
         question.answers
     }
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupGradient()
-        questionLabel.text = question.title
         updateTitleForButtons()
+        questionLabel.text = question.title
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -45,8 +44,5 @@ final class TestViewController: UIViewController {
             button.setTitle(answer.title, for: .normal)
             button.setTitleColor(.white, for: .normal)
         }
-                
     }
-    
-
 }
