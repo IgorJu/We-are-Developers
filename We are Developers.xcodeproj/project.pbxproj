@@ -28,6 +28,7 @@
 /* Begin PBXFileReference section */
 		787D01DB29FA963600F0E530 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "We are Developers/ViewControllers/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
 		787D01DD29FA9AA500F0E530 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		78A2951D29FBDB5600810CA1 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		78A2951F29FBDCA700810CA1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		78A2952129FBEA9E00810CA1 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		78ADF6E829F9253300205D13 /* We are Developers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We are Developers.app"; sourceTree = BUILT_PRODUCTS_DIR; };

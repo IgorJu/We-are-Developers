@@ -1,0 +1,26 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "de1b1058a1340671efc077df2bfc698e710f1e21bac70b84297a92650b584e87"
+build_start_time: [1682681530, 562530994]
+build_end_time: [1682681530, 582912921]
+inputs:
+  "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/App/AppDelegate.swift": !private [1682680400, 244854211]
+  "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/App/SceneDelegate.swift": !private [1682680400, 245299339]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/Extensions/Extension + UIView.swift"
+  : !private [1682680400, 245733737]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/Extensions/Extension + UIViewController.swift"
+  : !private [1682680400, 245944976]
+  "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/Models/Person.swift": !private [1682680664, 514800548]
+  "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/Models/Question.swift": !private [1682680400, 246617555]
+  "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/Services/DataStore.swift": !private [1682681530, 443243026]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/ViewControllers/DetailViewController.swift"
+  : !private [1682681530, 456205844]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/ViewControllers/LaunchTestViewController.swift"
+  : !private [1682680400, 252368450]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/ViewControllers/ParticipantListViewController.swift"
+  : !private [1682681100, 88919162]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/ViewControllers/ResultViewController.swift"
+  : !private [1682680400, 252799034]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/ViewControllers/TabBarViewController.swift"
+  : !private [1682680664, 489901065]
+  ? "/Users/asmatviets/!SwiftIOS/!iOS junior Developer/2.34/Lessons/2.34/We-are-Developers/We are Developers/ViewControllers/TestViewController.swift"
+  : !private [1682680400, 253173589]

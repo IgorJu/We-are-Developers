@@ -13,5 +13,4 @@ final class LaunchTestViewController: UIViewController {
         super.viewDidLoad()
         setupGradient()
     }
-
 }
