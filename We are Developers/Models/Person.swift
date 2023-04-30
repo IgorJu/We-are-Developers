@@ -10,10 +10,8 @@ struct TeamMate {
     
     let name: String
     let surname: String
-    let yearOfBirth: String
     let age: String
     let hobby: String
-    let pets: String
     let photo: String
     let job: String
     
@@ -21,20 +19,6 @@ struct TeamMate {
         name + " " + surname
     }
     
-    var description: String {
-        name
-        + ","
-        + age
-        + " years old,"
-        + "was born in "
-        + yearOfBirth
-        + "and enjoy "
-        + hobby
-        + "."
-        + name
-        + "'s pets are:"
-        + pets
-    }
     
     static func getTeamMatesList() -> [TeamMate] {
         var teamMates: [TeamMate] = []

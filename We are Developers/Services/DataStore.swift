@@ -16,10 +16,8 @@ final class DataStoreForList {
         TeamMate(
             name: "Andrey",
             surname: "Matviets",
-            yearOfBirth: "1987",
             age: "36",
             hobby: "Snowboarding",
-            pets: "MakBook, iPhone, AirPods",
             photo: "myPhoto",
             job: "Developer"
         )
@@ -27,10 +25,8 @@ final class DataStoreForList {
         TeamMate(
             name: "Igor",
             surname: "Rukaleev",
-            yearOfBirth: "1998",
             age: "25",
             hobby: "Yoga",
-            pets: "Cat, dog",
             photo: "igor",
             job: "Developer - Team Leader"
         )
