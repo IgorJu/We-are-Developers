@@ -15,6 +15,7 @@ struct TeamMate {
     let hobby: String
     let pets: String
     let photo: String
+    let job: String
     
     var fullname: String {
         name + " " + surname

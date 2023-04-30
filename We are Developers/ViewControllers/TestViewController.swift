@@ -12,18 +12,18 @@ final class TestViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var singleButtons: [UIButton]!
     
-    private let question = Question.getQuestion()
+    private let quizItems = QuizItem.getQuizItems()
     
     private var chosenAnswer: [Answer] = []
-    private var currentAnswer: [Answer] {
-        question.answers
+    private var currentAnswer: [QuizItem] {
+        quizItems
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupGradient()
         updateTitleForButtons()
-        questionLabel.text = question.title
+        questionLabel.text = quizItems.first?.title
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -31,17 +31,16 @@ final class TestViewController: UIViewController {
         resultVC.chosenAnswer = chosenAnswer
     }
     
-    
     @IBAction func singleButtonPressed(_ sender: UIButton) {
         guard let buttonIndex = singleButtons.firstIndex(of: sender) else { return }
         let answer = currentAnswer[buttonIndex]
-        chosenAnswer.append(answer)
+        chosenAnswer.append(answer.answer)
         performSegue(withIdentifier: "showResult", sender: nil)
     }
     
     private func updateTitleForButtons() {
-        for (button, answer) in zip(singleButtons, question.answers) {
-            button.setTitle(answer.title, for: .normal)
+        for (button, answer) in zip(singleButtons, quizItems) {
+            button.setTitle(answer.answer.title, for: .normal)
             button.setTitleColor(.white, for: .normal)
         }
     }

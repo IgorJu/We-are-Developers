@@ -19,6 +19,7 @@ final class DetailViewController: UIViewController {
     @IBOutlet var surnameLabel: UILabel!
     @IBOutlet var ageLabel: UILabel!
     @IBOutlet var hobbyLabel: UILabel!
+    @IBOutlet var projectPositionLabel: UILabel!
     
     var teamMate: TeamMate!
     
@@ -32,5 +33,6 @@ final class DetailViewController: UIViewController {
         surnameLabel.text = teamMate.surname
         ageLabel.text = teamMate.age
         hobbyLabel.text = teamMate.hobby
+        projectPositionLabel.text = teamMate.job
     }
 }

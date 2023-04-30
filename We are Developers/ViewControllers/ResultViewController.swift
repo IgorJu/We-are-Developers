@@ -19,8 +19,8 @@ final class ResultViewController: UIViewController {
         setupGradient()
         navigationItem.hidesBackButton = true
         
-        nameLabel.text = chosenAnswer.first?.fan.rawValue
-        descriptionLabel.text = chosenAnswer.first?.fan.definiton
+        nameLabel.text = chosenAnswer.first?.fan
+        descriptionLabel.text = chosenAnswer.first?.definition
     }
 
     @IBAction func doneButtonTapped(_ sender: UIBarButtonItem) {

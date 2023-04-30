@@ -34,6 +34,8 @@ final class ParticipantListViewController: UITableViewController {
         let teamMate = teamMates[indexPath.row]
         
         content.text = teamMate.fullname
+        content.textProperties.font = UIFont(name: "HelveticaNeue" , size: 18) ?? UIFont()
+        content.textProperties.color = .white
         cell.contentConfiguration = content
         cell.backgroundConfiguration = .clear()
         return cell
